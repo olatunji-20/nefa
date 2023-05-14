@@ -12,6 +12,10 @@
         </div>
         <div class="noti"></div>
     </div>
+    <div class="landing">
+        <div class="first"></div>
+        <div class="second"></div>
+    </div>
 </template>
 
 <script>
@@ -56,5 +60,23 @@ export default {
     width: 30px;
     height: 40px;
     border: 1px solid red;
+}
+.landing {
+    width: 100%;
+    height: 900px;
+    border: 2px solid blue;
+    background: seashell;
+    display: flex;
+    flex-direction: row;
+}
+.landing .first {
+    width: 50%;
+    height: 800px;
+    border: 1px solid green;
+}
+.landing .second {
+    width: 50%;
+    height: 800px;
+    border: 1px solid blue;
 }
 </style>

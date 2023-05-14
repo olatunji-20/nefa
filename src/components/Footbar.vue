@@ -41,7 +41,10 @@
                 <li>Get in touch</li>
             </ul>
         </div>
-        <div class="three"></div>
+        <div class="three">
+            <p>© NEFA, All rights reserved.</p>
+            <div class="socials"></div>
+        </div>
     </section>
 </template>
 
@@ -60,18 +63,21 @@ export default {
 section {
     width: 100%;
     height: 500px;
-    background: powderblue;
+    background: #000000;
+    color: white;
     display: flex;
+    font-size: 14px;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     text-align: left;
+    line-height: 22px;
 }
 .one {
     width: 30%;
     height: 400px;
     border: 1px solid black;
-    padding: 20px;
+    padding: 30px 20px;
 }
 .one .write {
     width: 80%;
@@ -81,12 +87,26 @@ section {
 .two {
     width: 20%;
     height: 400px;
-    padding: 20px;
+    padding: 20px 30px;
     border: 1px solid red;
+}
+.two ul li{
+    list-style-type: none;
+    text-indent: -40px;
 }
 .three {
     width: 100%;
     height: 90px;
     border: 1px solid green;
+    padding: 20px 40px;
+}
+.three p {
+    float: left;
+}
+.three .socials {
+    border: 1px solid red;
+    height: 40px;
+    width: 400px;
+    float: right;
 }
 </style>
