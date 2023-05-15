@@ -91,8 +91,8 @@ export default {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 40px;
+    justify-content: space-around;
+    padding: 40px 20px;
 }
 .landing .first {
     width: 40%;
@@ -150,6 +150,6 @@ button {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transform: scale(1.5)
+    transform: scale(0.2)
 }
 </style>
