@@ -128,7 +128,45 @@
             <option>48h</option>
         </select>
 
-        <div class="table"></div>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Collections</th>
+                    <th>Total Volume</th>
+                    <th>Floor Price</th>
+                    <th style="width: 120px">Unique Owners</th>
+                    <th style="text-align: right; width: 180px">Items Listed</th>
+                </tr>
+                <tr>
+                    <td class="eee">1. <div class="draw"></div> Collections</td>
+                    <td>4935 CSPR</td>
+                    <td>11 CSPR</td>
+                    <td style="text-align: right;">675</td>
+                    <td style="text-align: right;">1862</td>
+                </tr>
+                <tr>
+                    <td class="eee">2. <div class="draw"></div> Collections</td>
+                    <td>4935 CSPR</td>
+                    <td>11 CSPR</td>
+                    <td style="text-align: right;">675</td>
+                    <td style="text-align: right;">1862</td>
+                </tr>
+                <tr>
+                    <td class="eee">3. <div class="draw"></div> Collections</td>
+                    <td>4935 CSPR</td>
+                    <td>11 CSPR</td>
+                    <td style="text-align: right;">675</td>
+                    <td style="text-align: right;">1862</td>
+                </tr>
+                <tr>
+                    <td class="eee">4. <div class="draw"></div> Collections</td>
+                    <td>4935 CSPR</td>
+                    <td>11 CSPR</td>
+                    <td style="text-align: right;">675</td>
+                    <td style="text-align: right;">1862</td>
+                </tr>
+            </table>
+        </div>
 
 
 
@@ -233,7 +271,32 @@ select {
 .table {
     border: 2px solid fuchsia;
     width: 100%;
-    height: 400px;
+    height: auto;
     margin: 270px auto 100px;
+}
+table {
+    width: 100%;
+}
+th {
+    padding: 15px 0px;
+}
+td {
+    padding: 8px 0px;
+}
+.eee {
+    line-height: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+table, th, td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+.draw {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: powderblue;
 }
 </style>
