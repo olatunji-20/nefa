@@ -54,10 +54,10 @@ export default {
 <style scoped>
 .main {
     width: 100%;
-    height: 130px;
+    height: 8.125rem;
     border: 2px solid red;
     background: green;
-    padding: 43px 50px;
+    padding: 2.6875rem 3.125rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -70,13 +70,21 @@ export default {
 .options {
     width: auto;
     height: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .options ul li {
     list-style-type: none;
     display: inline-block;
-    font-size: 14px;
-    margin: 0px 30px;
+    font-size: 0.9rem;
+    margin: 0rem 1.8rem;
+    position: relative;
+    top: 0px;
+    transition: .3s;
+}
+.options ul li:hover {
+    color: red;
+    cursor: pointer;
+    top: -3px;
 }
 .noti {
     width: 30px;
@@ -85,18 +93,18 @@ export default {
 }
 .landing {
     width: 100%;
-    height: 900px;
+    height: auto;
     border: 2px solid blue;
-    background: seashell;
+    /* background: seashell; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem 6.25rem;
 }
 .landing .first {
-    width: 40%;
-    height: 700px;
+    width: 41%;
+    height: 37.5rem;
     border: 1px solid green;
     text-align: left;
 }
@@ -106,7 +114,7 @@ export default {
 }
 .intro {
     font-size: 18px;
-    width: 420px;
+    width: 26.25rem;
 }
 button {
     font-size: 20px;
@@ -131,25 +139,25 @@ button {
     text-align: center;
     width: 140px;
     height: 100%;
-    line-height: 8px;
+    line-height: 0.5rem;
     padding-top: 13px;
 }
 .landing .second {
     width: 50%;
-    height: 700px;
+    height: 37.5rem;
     border: 1px solid blue;
 }
 .second .circle {
-    width: 500px;
-    height: 500px;
+    width: 31.25rem;
+    height: 31.25rem;
     border-radius: 50%;
-    margin: 50px auto;
+    margin: 3.125rem auto;
     border: 2px solid tomato;
 }
 .pad {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transform: scale(0.2)
+    transform: scale(0.8)
 }
 </style>

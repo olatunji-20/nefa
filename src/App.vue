@@ -8,6 +8,8 @@
 }
 body {
   margin: 0px !important;
+  /* background: #000000; */
+  color: white;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
