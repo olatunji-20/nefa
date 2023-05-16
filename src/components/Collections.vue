@@ -190,7 +190,7 @@ section {
     width: 100%;
     height: auto;
     text-align: left;
-    padding: 40px 50px;
+    padding: 40px 30px;
     /* display: flex;
     flex-direction: row;
     flex-wrap: wrap; */
@@ -223,12 +223,18 @@ select {
 }
 .card {
     border: 1px solid green;
-    width: 220px;
-    height: 330px;
+    width: 230px;
+    height: 300px;
+    position: relative;
+    top: 0px;
+}
+.card:hover {
+    top: -10px;
+    cursor: pointer;
 }
 .card-image {
     width: 100%;
-    height: 230px;
+    height: 200px;
     border: 1px solid red;
 }
 .details {
@@ -281,7 +287,7 @@ th {
     padding: 15px 0px;
 }
 td {
-    padding: 8px 0px;
+    padding: 7px 0px;
 }
 .eee {
     line-height: 28px;

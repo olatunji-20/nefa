@@ -43,7 +43,14 @@
         </div>
         <div class="three">
             <p>© NEFA, All rights reserved.</p>
-            <div class="socials"></div>
+            <div class="socials">
+                <div class="social-logo"></div>
+                <div class="social-logo"></div>
+                <div class="social-logo"></div>
+                <div class="social-logo"></div>
+                <div class="social-logo"></div>
+                <div class="social-logo"></div>
+            </div>
         </div>
     </section>
 </template>
@@ -71,7 +78,7 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     text-align: left;
-    line-height: 22px;
+    line-height: 25px;
 }
 .one {
     width: 30%;
@@ -90,9 +97,16 @@ section {
     padding: 20px 30px;
     border: 1px solid red;
 }
-.two ul li{
+.two ul li {
     list-style-type: none;
     text-indent: -40px;
+    position: relative;
+    left: 0px;
+    transition: .4s;
+    cursor: pointer;
+}
+.two ul li:hover {
+    left: 10px;
 }
 .three {
     width: 100%;
@@ -105,8 +119,19 @@ section {
 }
 .three .socials {
     border: 1px solid red;
-    height: 40px;
-    width: 400px;
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;   
     float: right;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.three .socials .social-logo {
+    border: 1px solid blue;
+    width: 25px;
+    height: 25px;
 }
 </style>
