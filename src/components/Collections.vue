@@ -190,7 +190,7 @@ section {
     width: 100%;
     height: auto;
     text-align: left;
-    padding: 40px 30px;
+    padding: 2.5rem 1.875rem;
     /* display: flex;
     flex-direction: row;
     flex-wrap: wrap; */
@@ -203,19 +203,20 @@ section {
     font-size: 35px;
 }
 select {
-    width: 180px;
-    height: 40px;
-    border-radius: 10px;
+    width: 11.25rem;
+    height: 2.4rem;
     float: right;
-    margin-top: 20px;
+    margin-top: 1.25rem;
+    border: 1px solid red;
+    clip-path: polygon(6% 0, 94% 0, 100% 20%, 100% 80%, 94% 100%, 6% 100%, 0 80%, 0 20%);
 }
 .blossom {
     width: 100%;
     height: auto;
     border: 2px solid peru;
     display: block;
-    margin: 140px auto;
-    padding: 5px;
+    margin: 8.75rem auto;
+    padding: 0.3125rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -223,30 +224,31 @@ select {
 }
 .card {
     border: 1px solid green;
-    width: 230px;
-    height: 300px;
+    width: 14.375rem;
+    height: 18.75rem;
     position: relative;
     top: 0px;
+    transition: .4s;
 }
 .card:hover {
-    top: -10px;
+    top: 10px;
     cursor: pointer;
 }
 .card-image {
     width: 100%;
-    height: 200px;
+    height: 12.5rem;
     border: 1px solid red;
 }
 .details {
     width: 100%;
-    height: 100px;
+    height: 6.25rem;
     border: 1px solid blue;
-    padding-left: 5px;
+    padding-left: 0.3125rem;
     line-height: 4px;
 }
 .price {
     width: 100%;
-    height: 50px;
+    height: 3.125rem;
     border: 2px solid firebrick;
     display: flex;
     flex-direction: row;
@@ -278,16 +280,16 @@ select {
     border: 2px solid fuchsia;
     width: 100%;
     height: auto;
-    margin: 270px auto 100px;
+    margin: 16.875rem auto 6.25rem;
 }
 table {
     width: 100%;
 }
 th {
-    padding: 15px 0px;
+    padding: 0.95rem 0px;
 }
 td {
-    padding: 7px 0px;
+    padding: 0.4375rem 0px;
 }
 .eee {
     line-height: 28px;

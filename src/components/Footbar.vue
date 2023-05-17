@@ -84,7 +84,7 @@ section {
     width: 30%;
     height: 400px;
     border: 1px solid black;
-    padding: 30px 20px;
+    padding: 1.875rem 1.25rem;
 }
 .one .write {
     width: 80%;
@@ -112,7 +112,7 @@ section {
     width: 100%;
     height: 90px;
     border: 1px solid green;
-    padding: 20px 40px;
+    padding: 1.25rem 2.5rem;
 }
 .three p {
     float: left;
@@ -133,5 +133,7 @@ section {
     border: 1px solid blue;
     width: 25px;
     height: 25px;
+    background: powderblue;
+    border-radius: 50%;
 }
 </style>
