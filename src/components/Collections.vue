@@ -11,7 +11,9 @@
         <div class="blossom">
             
             <div class="card">
-                <div class="card-image"></div>
+                <div class="card-image">
+                    <img src="../assets/113.png" class="image-card">
+                </div>
                 <div class="details">
                     <h4>Blossom Twinkles</h4>
                     <div class="price">
@@ -32,7 +34,9 @@
             </div>
 
             <div class="card">
-                <div class="card-image"></div>
+                <div class="card-image">
+                    <img src="../assets/441.png" class="image-card">
+                </div>
                 <div class="details">
                     <h4>Blossom Twinkles</h4>
                     <div class="price">
@@ -53,7 +57,9 @@
             </div>
 
             <div class="card">
-                <div class="card-image"></div>
+                <div class="card-image">
+                    <img src="../assets/114.png" class="image-card">
+                </div>
                 <div class="details">
                     <h4>Blossom Twinkles</h4>
                     <div class="price">
@@ -74,7 +80,9 @@
             </div>
 
             <div class="card">
-                <div class="card-image"></div>
+                <div class="card-image">
+                    <img src="../assets/115.png" class="image-card">
+                </div>
                 <div class="details">
                     <h4>Blossom Twinkles</h4>
                     <div class="price">
@@ -95,7 +103,9 @@
             </div>
 
             <div class="card">
-                <div class="card-image"></div>
+                <div class="card-image">
+                    <img src="../assets/116.png" class="image-card">
+                </div>
                 <div class="details">
                     <h4>Blossom Twinkles</h4>
                     <div class="price">
@@ -138,28 +148,36 @@
                     <th style="text-align: right; width: 180px">Items Listed</th>
                 </tr>
                 <tr>
-                    <td class="eee">1. <div class="draw"></div> Collections</td>
+                    <td class="eee">1. <div class="draw">
+                        <img src="../assets/222.png" class="draw-image">
+                    </div> Collections</td>
                     <td>4935 CSPR</td>
                     <td>11 CSPR</td>
                     <td style="text-align: right;">675</td>
                     <td style="text-align: right;">1862</td>
                 </tr>
                 <tr>
-                    <td class="eee">2. <div class="draw"></div> Collections</td>
+                    <td class="eee">2. <div class="draw">
+                        <img src="../assets/221.png" class="draw-image">
+                    </div> Collections</td>
                     <td>4935 CSPR</td>
                     <td>11 CSPR</td>
                     <td style="text-align: right;">675</td>
                     <td style="text-align: right;">1862</td>
                 </tr>
                 <tr>
-                    <td class="eee">3. <div class="draw"></div> Collections</td>
+                    <td class="eee">3. <div class="draw">
+                        <img src="../assets/223.png" class="draw-image">
+                    </div> Collections</td>
                     <td>4935 CSPR</td>
                     <td>11 CSPR</td>
                     <td style="text-align: right;">675</td>
                     <td style="text-align: right;">1862</td>
                 </tr>
                 <tr>
-                    <td class="eee">4. <div class="draw"></div> Collections</td>
+                    <td class="eee">4. <div class="draw">
+                        <img src="../assets/224.png" class="draw-image">
+                    </div> Collections</td>
                     <td>4935 CSPR</td>
                     <td>11 CSPR</td>
                     <td style="text-align: right;">675</td>
@@ -225,7 +243,7 @@ select {
 .card {
     border: 1px solid green;
     width: 14.375rem;
-    height: 18.75rem;
+    height: 17.25rem;
     position: relative;
     top: 0px;
     transition: .4s;
@@ -236,8 +254,13 @@ select {
 }
 .card-image {
     width: 100%;
-    height: 12.5rem;
+    height: 11rem;
     border: 1px solid red;
+}
+.image-card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .details {
     width: 100%;
@@ -304,7 +327,12 @@ table, th, td {
 .draw {
     width: 30px;
     height: 30px;
+    border-radius: 50%;
     margin-right: 10px;
-    background: powderblue;
+}
+.draw-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 </style>

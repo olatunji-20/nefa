@@ -1,6 +1,8 @@
 <template>
     <div class="main">
-        <div class="logo"></div>
+        <div class="logo">
+            <img src="../assets/N.png" class="logo-image" />
+        </div>
         <div class="options">
             <ul>
                 <li>Direction</li>
@@ -56,7 +58,7 @@ export default {
     width: 100%;
     height: 8.125rem;
     border: 2px solid red;
-    background: green;
+    /* background: green; */
     padding: 2.6875rem 3.125rem;
     display: flex;
     flex-direction: row;
@@ -66,6 +68,11 @@ export default {
     width: 45px;
     height: 40px;
     border: 1px solid blue;
+}
+.logo-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .options {
     width: auto;
@@ -82,9 +89,9 @@ export default {
     transition: .3s;
 }
 .options ul li:hover {
-    color: red;
+    color: purple;
     cursor: pointer;
-    top: -3px;
+    top: -1px;
 }
 .noti {
     width: 30px;
@@ -105,7 +112,7 @@ export default {
 .landing .first {
     width: 41%;
     height: 37.5rem;
-    border: 1px solid green;
+    border: 1px solid rgb(94, 43, 177);
     text-align: left;
 }
 .discover {
@@ -119,11 +126,18 @@ export default {
 button {
     font-size: 20px;
     width: 200px;
-    height: 60px;
+    height: 55px;
     margin-top: 20px;
-    background: tomato;
+    background: #2607FD;
+    color: white;
+    position: relative;
     border: 0px;
-    clip-path: polygon(10% 0, 90% 0, 100% 25%, 100% 75%, 90% 100%, 10% 100%, 0 75%, 0 25%);
+    clip-path: polygon(8% 0, 92% 0, 100% 20%, 100% 80%, 92% 100%, 8% 100%, 0 80%, 0 20%);
+    transition: .5s;
+}
+button:hover {
+    top: 3px;
+    cursor: pointer;
 }
 .creator {
     border: 1px solid red;
@@ -148,16 +162,20 @@ button {
     border: 1px solid blue;
 }
 .second .circle {
-    width: 31.25rem;
-    height: 31.25rem;
+    width: 400px;
+    height: 400px;
+    background: rgb(94, 43, 177, 0.3);
+    box-shadow: 3px 3px 3px 9px rgb(94, 43, 177, 0.3);
     border-radius: 50%;
-    margin: 3.125rem auto;
-    border: 2px solid tomato;
+    margin: 80px auto 0px;
+    /* border: 2px solid tomato; */
 }
 .pad {
     width: 100%;
     height: 100%;
+    position: relative;
+    right: 50px;   
     object-fit: cover;
-    transform: scale(0.8)
+    transform: scale(1.8)
 }
 </style>
