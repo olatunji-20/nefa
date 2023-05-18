@@ -184,14 +184,19 @@ button:hover {
 }
 
 @media screen and (max-width: 500px) {
+  .main {
+    border-bottom: 1px solid purple;
+  }
   .options {
     display: none;
   }
   .landing {
     flex-direction: column;
+    padding: 1rem 1.25rem 3rem;
   }
   .landing .first {
     width: 100%;
+    height: 30rem;
   }
   .discover {
     font-size: 38px;
@@ -202,13 +207,14 @@ button:hover {
   }
   .landing .second {
     width: 100%;
+    height: 30rem;
   }
   .second .circle {
-    width: 21rem;
-    height: 21rem;
+    width: 18rem;
+    height: 18rem;
   }
   .pad {
-    transform: scale(1.5);
+    transform: scale(1.7);
   }
 }
 </style>

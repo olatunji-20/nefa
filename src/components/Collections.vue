@@ -352,7 +352,8 @@ td {
     padding: 2rem 1.5rem;
   }
   .feat h2 {
-    font-size: 28px;
+    font-size: 22px;
+    line-break: auto;
   }
   select {
     width: 3rem;
@@ -372,6 +373,9 @@ td {
     height: auto;
     flex-wrap: nowrap;
     overflow: auto;
+  }
+  table {
+    width: 800px;
   }
 }
 </style>
