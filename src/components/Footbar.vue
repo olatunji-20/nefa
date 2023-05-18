@@ -69,7 +69,7 @@ export default {
 <style scoped>
 section {
     width: 100%;
-    height: 500px;
+    height: auto;
     background: #000000;
     color: white;
     display: flex;
@@ -81,9 +81,9 @@ section {
     line-height: 25px;
 }
 .one {
-    width: 30%;
+    width: 400px;
     height: 400px;
-    border: 1px solid black;
+    border: 1px solid green;
     padding: 1.875rem 1.25rem;
 }
 .one .write {
@@ -92,7 +92,7 @@ section {
     border: 1px solid purple;
 }
 .two {
-    width: 20%;
+    width: 250px;
     height: 400px;
     padding: 20px 30px;
     border: 1px solid red;
@@ -136,4 +136,28 @@ section {
     background: powderblue;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 500px) {
+    section {
+        flex-direction: column;
+    }
+    .one, .two {
+        width: 100%;
+        height: auto;
+    }
+    .three {
+        height: auto;
+    }
+    .three .socials {
+        float: left;
+    }
+
+
+
+
+
+}
+
+
+
 </style>

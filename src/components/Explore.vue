@@ -147,7 +147,7 @@ section .second {
     height: auto;
     border: 2px solid palevioletred;
     text-align: left;
-    padding-top: 3.125rem;
+    padding: 3.125rem 1rem;
 }
 .exp {
     width: 12.5rem;
@@ -163,11 +163,11 @@ section .second {
     width: 100%;
     height: auto;
     padding: 2.5rem 0rem 7.5rem;
-    line-height: 7px;
+    /* line-height: 7px; */
 }
 .stay .mail {
     border: 1px solid green;
-    width: 31.25rem;
+    width: 40%;
     height: 2.5rem;
     margin: 2rem auto 0px;
     padding-top: 0px;
@@ -187,4 +187,26 @@ section .second {
     color: white;
     border: 0px;
 }
+
+@media screen and (max-width: 500px) {
+    section {
+        flex-direction: column;
+    }
+    section .first {
+        width: 100%;
+        display: none;
+    }
+    section .second {
+        width: 100%;
+        height: auto;
+    }
+    .stay {
+        line-height: auto;
+    }
+    .stay .mail {
+        width: 80%;
+    }
+}
+
+
 </style>

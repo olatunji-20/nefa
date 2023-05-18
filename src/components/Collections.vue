@@ -232,7 +232,7 @@ select {
     width: 100%;
     height: auto;
     border: 2px solid peru;
-    display: block;
+    /* display: block; */
     margin: 8.75rem auto;
     padding: 0.3125rem;
     display: flex;
@@ -335,4 +335,30 @@ table, th, td {
     height: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-width: 500px) {
+    section {
+        padding: 2rem 1.5rem;
+    }
+    .feat h2 {
+        font-size: 28px;
+    }
+    select {
+        width: 5rem;
+        clip-path: polygon(13% 0, 87% 0, 100% 20%, 100% 80%, 87% 100%, 13% 100%, 0 80%, 0 20%);
+    }
+    .blossom {
+        width: 100%;
+        height: auto;
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+
+
+
+}
+
+
+
+
 </style>

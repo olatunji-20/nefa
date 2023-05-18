@@ -131,6 +131,7 @@ button {
     background: #2607FD;
     color: white;
     position: relative;
+    top: 0px;
     border: 0px;
     clip-path: polygon(8% 0, 92% 0, 100% 20%, 100% 80%, 92% 100%, 8% 100%, 0 80%, 0 20%);
     transition: .5s;
@@ -178,4 +179,42 @@ button:hover {
     object-fit: cover;
     transform: scale(1.8)
 }
+
+@media screen and (max-width: 500px) {
+    .options {
+        display: none;
+    }
+    .landing {
+        flex-direction: column;
+    }
+    .landing .first {
+        width: 100%;
+    }
+    .discover {
+        font-size: 38px;
+    }
+    .intro {
+        font-size: 13px;
+        width: auto;
+    }
+    .landing .second {
+        width: 100%;
+    }
+    .second .circle {
+        width: 21rem;
+        height: 21rem;
+    }
+    .pad {
+        transform: scale(1.5)
+    }
+
+
+
+
+}
+
+
+
+
+
 </style>
