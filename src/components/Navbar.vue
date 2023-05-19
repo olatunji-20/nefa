@@ -201,14 +201,10 @@ button:hover {
   .landing .second {
     width: 100%;
     height: 30rem;
-    margin-top: 30px;
-  }
-  .second .circle {
-    width: 18rem;
-    height: 18rem;
+    margin-top: 40px;
   }
   .pad {
-    transform: scale(1.1);
+    transform: scale(1.0);
   }
 }
 </style>
