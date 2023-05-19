@@ -49,12 +49,12 @@
     <div class="three">
       <p>© NEFA, All rights reserved.</p>
       <div class="socials">
-        <div class="social-logo"></div>
-        <div class="social-logo"></div>
-        <div class="social-logo"></div>
-        <div class="social-logo"></div>
-        <div class="social-logo"></div>
-        <div class="social-logo"></div>
+        <div class="social-logo"><a href="#" class="fa fa-linkedin"></a></div>
+        <div class="social-logo"><a href="#" class="fa fa-facebook"></a></div>
+        <div class="social-logo"><a href="#" class="fa fa-twitter"></a></div>
+        <div class="social-logo"><a href="#" class="fa fa-snapchat"></a></div>
+        <div class="social-logo"><a href="#" class="fa fa-instagram"></a></div>
+        <div class="social-logo"><a href="#" class="fa fa-telegram"></a></div>
       </div>
     </div>
   </section>
@@ -130,8 +130,13 @@ section {
 .three .socials .social-logo {
   width: 25px;
   height: 25px;
-  background: purple;
+  background: #000;
   border-radius: 50%;
+}
+.fa {
+  padding: 0px 5px;
+  font-size: 18px;
+  color: white;
 }
 
 @media screen and (max-width: 500px) {

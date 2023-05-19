@@ -229,5 +229,11 @@ section .second {
   .stay .mail {
     width: 80%;
   }
+  .stay .mail input {
+    width: 50%;
+  }
+  .stay .mail button {
+    width: 49%;
+  }
 }
 </style>

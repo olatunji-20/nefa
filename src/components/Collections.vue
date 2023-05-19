@@ -8,116 +8,119 @@
       <option>24h</option>
       <option>48h</option>
     </select>
-    <div class="blossom">
-      <div class="card">
-        <div class="card-image">
-          <img src="../assets/113.png" class="image-card" />
-        </div>
-        <div class="details">
-          <h4>Blossom Twinkles</h4>
-          <div class="price">
-            <div class="p">
-              <p>Price</p>
-              <p class="cspr">789 CSPR</p>
-            </div>
-            <div class="com">
-              <div class="comm">
-                <p>43</p>
+    <div class="blo">
+
+      <div class="blossom">
+        <div class="card">
+          <div class="card-image">
+            <img src="../assets/113.png" class="image-card" />
+          </div>
+          <div class="details">
+            <h4>Blossom Twinkles</h4>
+            <div class="price">
+              <div class="p">
+                <p>Price</p>
+                <p class="cspr">789 CSPR</p>
               </div>
-              <div class="comm">
-                <p>43</p>
+              <div class="com">
+                <div class="comm">
+                  <p>43</p>
+                </div>
+                <div class="comm">
+                  <p>43</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <img src="../assets/441.png" class="image-card" />
-        </div>
-        <div class="details">
-          <h4>Blossom Twinkles</h4>
-          <div class="price">
-            <div class="p">
-              <p>Price</p>
-              <p class="cspr">789 CSPR</p>
-            </div>
-            <div class="com">
-              <div class="comm">
-                <p>43</p>
+  
+        <div class="card">
+          <div class="card-image">
+            <img src="../assets/441.png" class="image-card" />
+          </div>
+          <div class="details">
+            <h4>Blossom Twinkles</h4>
+            <div class="price">
+              <div class="p">
+                <p>Price</p>
+                <p class="cspr">789 CSPR</p>
               </div>
-              <div class="comm">
-                <p>43</p>
+              <div class="com">
+                <div class="comm">
+                  <p>43</p>
+                </div>
+                <div class="comm">
+                  <p>43</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <img src="../assets/114.png" class="image-card" />
-        </div>
-        <div class="details">
-          <h4>Blossom Twinkles</h4>
-          <div class="price">
-            <div class="p">
-              <p>Price</p>
-              <p class="cspr">789 CSPR</p>
-            </div>
-            <div class="com">
-              <div class="comm">
-                <p>43</p>
+  
+        <div class="card">
+          <div class="card-image">
+            <img src="../assets/114.png" class="image-card" />
+          </div>
+          <div class="details">
+            <h4>Blossom Twinkles</h4>
+            <div class="price">
+              <div class="p">
+                <p>Price</p>
+                <p class="cspr">789 CSPR</p>
               </div>
-              <div class="comm">
-                <p>43</p>
+              <div class="com">
+                <div class="comm">
+                  <p>43</p>
+                </div>
+                <div class="comm">
+                  <p>43</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <img src="../assets/115.png" class="image-card" />
-        </div>
-        <div class="details">
-          <h4>Blossom Twinkles</h4>
-          <div class="price">
-            <div class="p">
-              <p>Price</p>
-              <p class="cspr">789 CSPR</p>
-            </div>
-            <div class="com">
-              <div class="comm">
-                <p>43</p>
+  
+        <div class="card">
+          <div class="card-image">
+            <img src="../assets/115.png" class="image-card" />
+          </div>
+          <div class="details">
+            <h4>Blossom Twinkles</h4>
+            <div class="price">
+              <div class="p">
+                <p>Price</p>
+                <p class="cspr">789 CSPR</p>
               </div>
-              <div class="comm">
-                <p>43</p>
+              <div class="com">
+                <div class="comm">
+                  <p>43</p>
+                </div>
+                <div class="comm">
+                  <p>43</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <img src="../assets/116.png" class="image-card" />
-        </div>
-        <div class="details">
-          <h4>Blossom Twinkles</h4>
-          <div class="price">
-            <div class="p">
-              <p>Price</p>
-              <p class="cspr">789 CSPR</p>
-            </div>
-            <div class="com">
-              <div class="comm">
-                <p>43</p>
+  
+        <div class="card">
+          <div class="card-image">
+            <img src="../assets/116.png" class="image-card" />
+          </div>
+          <div class="details">
+            <h4>Blossom Twinkles</h4>
+            <div class="price">
+              <div class="p">
+                <p>Price</p>
+                <p class="cspr">789 CSPR</p>
               </div>
-              <div class="comm">
-                <p>43</p>
+              <div class="com">
+                <div class="comm">
+                  <p>43</p>
+                </div>
+                <div class="comm">
+                  <p>43</p>
+                </div>
               </div>
             </div>
           </div>
@@ -140,13 +143,13 @@
           <th>Collections</th>
           <th>Total Volume</th>
           <th>Floor Price</th>
-          <th style="width: 120px">Unique Owners</th>
+          <th style="text-align: right">Unique Owners</th>
           <th style="text-align: right; width: 180px">Items Listed</th>
         </tr>
         <tr>
           <td class="eee">
             1.
-            <div class="draw">
+            <div style="margin-left: 8px" class="draw">
               <img src="../assets/222.png" class="draw-image" />
             </div>
             Collections
@@ -243,9 +246,13 @@ select {
   color: white;
   text-indent: 10px;
 }
-.blossom {
+.blo {
   width: 100%;
   height: auto;
+}
+.blossom {
+  width: 100%;
+  height: 18rem;
   margin: 8.75rem auto;
   padding: 0.3125rem;
   display: flex;
@@ -256,6 +263,7 @@ select {
 .card {
   width: 14.375rem;
   height: 17.25rem;
+  margin: 1px;
   position: relative;
   top: 0px;
   transition: 0.4s;
@@ -352,11 +360,11 @@ td {
     padding: 2rem 1.5rem;
   }
   .feat h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-break: auto;
   }
   select {
-    width: 3rem;
+    width: 70px;
     clip-path: polygon(
       13% 0,
       87% 0,
@@ -368,14 +376,22 @@ td {
       0 20%
     );
   }
-  .blossom {
+  .blo {
     width: 100%;
     height: auto;
+    overflow: auto;
+  }
+  .blossom {
+    width: 1400px;
+    height: 20rem;
     flex-wrap: nowrap;
     overflow: auto;
   }
   table {
     width: 800px;
+  }
+  .table {
+    margin: 7.875rem auto 1rem;
   }
 }
 </style>

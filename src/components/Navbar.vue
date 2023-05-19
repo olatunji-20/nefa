@@ -40,9 +40,7 @@
       </div>
     </div>
     <div class="second">
-      <div class="circle">
         <img src="../assets/pad.png" class="pad" />
-      </div>
     </div>
   </div>
 </template>
@@ -104,7 +102,7 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 2.5rem 1.25rem 6.25rem;
+  padding: 2rem 1.25rem 6.25rem;
 }
 .landing .first {
   width: 41%;
@@ -161,18 +159,13 @@ button:hover {
   height: 100%;
   line-height: 0.5rem;
   padding-top: 13px;
+  border-right: 1px solid white;
 }
 .landing .second {
   width: 50%;
   height: 37.5rem;
-}
-.second .circle {
-  width: 400px;
-  height: 400px;
-  background: rgb(94, 43, 177, 0.3);
-  box-shadow: 3px 3px 3px 9px rgb(94, 43, 177, 0.3);
-  border-radius: 50%;
-  margin: 80px auto 0px;
+  background-image: url(../assets/ellipse.png);
+  background-size: cover;
 }
 .pad {
   width: 100%;
@@ -180,7 +173,7 @@ button:hover {
   position: relative;
   right: 50px;
   object-fit: cover;
-  transform: scale(1.8);
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 500px) {
@@ -215,7 +208,7 @@ button:hover {
     height: 18rem;
   }
   .pad {
-    transform: scale(1.4);
+    transform: scale(1.1);
   }
 }
 </style>
