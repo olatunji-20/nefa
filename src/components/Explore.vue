@@ -200,6 +200,7 @@ section .second {
   height: 100%;
   margin-top: 0px;
   text-indent: 1.25rem;
+  border: 0px;
   font-family: "Orbitron", sans-serif;
 }
 .stay .mail button {
@@ -233,7 +234,7 @@ section .second {
     width: 50%;
   }
   .stay .mail button {
-    width: 49%;
+    width: 50%;
   }
 }
 </style>
