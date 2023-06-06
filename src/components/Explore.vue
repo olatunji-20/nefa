@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="first" data-aos="fade-right">
+    <div class="first" data-aos="flip-left">
       <div class="one">
         <img src="../assets/334.png" class="first-image" />
       </div>
@@ -20,7 +20,7 @@
         <img src="../assets/442.png" class="first-image" />
       </div>
     </div>
-    <div class="second" data-aos="fade-left">
+    <div class="second" data-aos="flip-right">
       <h2>Explore New Collections</h2>
       <p>
         The world of NFTs is constantly evolving, with new and exciting pieces
@@ -56,7 +56,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 AOS.init({
-  duration: 800
+  duration: 1000
 });
 
 export default {
